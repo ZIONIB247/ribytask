@@ -41,6 +41,7 @@
     margin-left: 24px;
     border-radius: 5px;
     background-color:#EE095B;
+    border: none;
  }
  .may{
     width: 97px;
@@ -54,3 +55,246 @@
     color:#EE095B;
 
  }
+ 
+   .jon>span{
+    width: 44px;
+    height: 16px;
+    margin-top: 46px;
+    margin-left: 96px;
+    font-family: "Outfit";
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #707070;
+    line-height: 100px; 
+  } 
+  .jon>img{
+    position: relative;
+    bottom: 55px;
+    left: 89px;
+
+  }
+  
+ 
+
+
+  .jon{
+    line-height: 45px;
+    margin-top: 75px;
+
+  }
+  .jon>p{
+    margin-left: 50px;
+  }
+  .nav>img{
+  float: right;
+  margin-left: 50px;
+  margin-top: 10px;
+  padding-left: 23px;
+ 
+  }
+  .jon>p:nth-child(3){
+    /* border: 1px solid black; */
+    padding-left: 5px;
+    color: #EE095B;
+    background-color: #FFC8DC;
+    
+  }
+  
+  /* .Card{
+    padding: 10px;
+  } */
+  /* .Card>p{
+    width: 66px;
+    height: 16px;
+    font-family: "Outfit";
+    font-weight: 400px;
+    font-size: 12px;
+    line-height: 16px;
+    color: #0D233D;
+  } */
+  /* .Card{
+    padding: 25px;
+  } */
+  /* .Card>p{
+    width: 66px;
+    height: 16px;
+    font-family: "Outfit";
+    font-weight: 400px;
+    font-size: 12px;
+    line-height: 10px;
+    
+
+  }
+  .Card>span{
+    color: #04AD85;
+    line-height: 50px;
+  } */
+  .top{
+    position: relative;
+    bottom:  619.5px;
+    background-color: #fff;
+  }
+  .top>h1{
+    position: relative;
+    top: 90px;
+    left: 52px;
+    width: 101px;
+    height: 32px;
+    font-family: "Outfit";
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    color:#0D233D;
+
+  }
+  .analyticsCard{
+    position: relative;
+    top: 65px;
+    left: 50px;
+    display: flex;
+    gap: 50px;
+  }
+  .graphCont{
+    position: relative;
+    top: 95px;
+    left: 48px;
+    gap: 20px;
+    display: flex;
+  }
+  .analyticsWrapper{
+    position: relative;
+    top: 65px;
+    left: 20px;
+    background-color: #f1f1f1;
+    height: 100vh;
+  }
+  .analyticsWrapper>h1{
+    position: relative;
+    top: 30px;
+    left: 45px;
+  }
+ .login>img{
+    margin-top: 100px;
+ }
+
+ .container{
+   position: relative;
+   bottom: 10px;
+ }
+    /* styling for the Agent page */
+
+
+ .luke>p:nth-child(1){
+    color: #EE095B;
+    background-color: #FFC8DC;
+
+ }
+
+ .job{
+    position: relative;
+    top: 40px;
+    display: flex;
+   
+ }
+ .job>span{
+ margin-left: 600px;
+ }
+ .job>span>button{
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: #EE095B;
+    color: #fff;
+    font-weight: 200;
+    border: none;
+
+ }
+ .job>span>input{
+    width: 272px;
+    height: 40px;
+    border-radius: 5px;
+    border: 0.5px solid;
+    opacity: 60px;
+ }
+ .job>span>input{
+    position: relative;
+   left: 155px;
+ }
+ .job>span>button{
+    position: relative;
+    left: 440px;
+    bottom: 40px;
+ }
+ .job>h2{
+    position: relative;
+    width: 77px;
+    height: 32px;
+    top: 15px;
+    left: 60px;
+    font-family: "Outfit";
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+
+ }
+ .noah{
+    position: relative;
+    top: 40px;
+    left: 50px;
+ }
+ .jude{
+    position: relative;
+    background-color: #f1f1f1;
+    top: 70px;
+    left: 25px;
+    height: 100vh;
+ }
+ .papa{
+  margin-top: 100px;
+   
+
+ }
+ .salt{
+    margin-top: 50px;
+    margin-inline: 30px;
+    
+ }
+ .salt>p{
+    position: relative;
+    bottom: 50px;
+    left: 15px;
+    
+ }
+ .salt>input{
+    position: relative;
+    right: 25px;
+ }
+.rain>button{
+    position: relative;
+    padding: 10px;
+    top: 55px;
+    left: 69px;
+    width: 304px;
+    height: 40px;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #EE095B;
+    border: none;
+}
+.rain>input{
+    position: relative;
+    left: 45px;
+    width: 304px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid;
+}
+.rain>p{
+    position: relative;
+    left: 45px;
+}
+.rain>h1{
+    margin-left: 105px;
+}
