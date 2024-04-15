@@ -9,11 +9,14 @@ import Pic1 from "./images/card1.png";
 import Pic2 from "./images/card2.png";
 import Pic3 from "./images/card3.png";
 import Pic4 from "./images/card4.png";
+import Sidebar from "./sidebar";
 
 
 
  export default function Board() {
     return(
+        <div>
+            <Sidebar />
 
         <Box className="nav top"
             sx={{
@@ -147,6 +150,7 @@ import Pic4 from "./images/card4.png";
             </Box>
            
         </Box>
+        </div>
     );
     
  }
