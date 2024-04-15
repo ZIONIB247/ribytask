@@ -3,18 +3,19 @@ import Box from "@mui/material/Box";
 import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
 import Modal from "@mui/material/Modal";
-
+import Agentpage from "./createagent"
 
 const style = {
-  position: "absolute",
-  top: "50%",
-  left: "50%",
-  transform: "translate(-50%, -50%)",
-  width: 400,
-  bgcolor: "background.paper",
-  border: "2px solid #000",
-  boxShadow: 24,
-  p: 4,
+//   position: "absolute",
+// //   top: "50%",
+// //   left: "50%",
+//   transform: "translate(-50%, -50%)",
+// //   width: 400,
+//   bgcolor: "background.paper",
+//   border: "2px solid #000",
+//   boxShadow: 24,
+//   p: 4,
+
 };
 
 export default function BasicModal() {
@@ -23,26 +24,18 @@ export default function BasicModal() {
   const handleClose = () => setOpen(false);
 
   return (
-    <div className="aot" style={{
-         
-
+    <div style={{
 
           }}>
       <Button onClick={handleOpen}>Create Agent</Button>
-      <Modal
+      <Modal className="aot"
         open={open}
         onClose={handleClose}
         aria-labelledby="modal-modal-title"
         aria-describedby="modal-modal-description"
       >
-        <Box sx={style}>
-          <Typography id="modal-modal-title" variant="h6" component="h2">
-            CREATE AGENT
-          </Typography>
-          <Typography id="modal-modal-description" sx={{ mt: 2 }}>
-            Modal content
-          </Typography>
-        </Box>
+          <Agentpage />
+
       </Modal>
     </div>
   );

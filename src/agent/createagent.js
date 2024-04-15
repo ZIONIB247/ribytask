@@ -7,12 +7,6 @@ import React from "react";
 export default function Agentpage() {
      return(
         <Box className="papa"
-          sx={{
-            width:"100vh",
-            position:"absolute",
-            height:"100vh",
-            backgroundColor:"#0D233D",
-          }}
         >
             <Box className="rain" 
             sx={{

@@ -4,14 +4,18 @@
  import Nav2 from "./images/question-answer-line 2.png";
  import Nav3 from "./images/Group 126.png";
  import List from "./images/list.png";
+ import Sidenavbar from "./sidenavbar";
 
 
 
 
   export default function Content() {
      return(
+        <div>
+            <Sidenavbar />
          <Box className="nav top"
-          
+             
+
         sx={{
 
             position:"absolute",
@@ -43,7 +47,7 @@
             <Box className="job"
             >
             <h2>Agents</h2>
-              <span> <input     placeholder="Search for Agents"    /> <button> Create Agent</button></span>
+              <span> <input     placeholder="Search for Agents"    /> <a href="/createAgent"> Create Agent</a></span>
 
             </Box>
             <Box className="noah"
@@ -57,6 +61,7 @@
 
             </Box>
          </Box>
+         </div>
      );
     
   }

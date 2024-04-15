@@ -271,6 +271,11 @@
     position: relative;
     right: 25px;
  }
+ .aot{
+    display: flex;
+    place-content: center;
+    align-items: center;
+ }
 .rain>button{
     position: relative;
     padding: 10px;
